@@ -15,108 +15,116 @@
     max-width: 100%;
     overflow: hidden;
   }
+
   .active-filter {
-            background: rgba(77, 145, 143, 0.12);
-            border-color: rgba(77, 145, 143, 0.35);
-        }
+    background: rgba(77, 145, 143, 0.12);
+    border-color: rgba(77, 145, 143, 0.35);
+  }
 
-.partner-section{
-  width: 100%;
-  padding: 60px 0;
-  overflow: hidden;
-}
+  .partner-section {
+    width: 100%;
+    padding: 60px 0;
+    overflow: hidden;
+  }
 
-.partner-container{
-  width: 100%;
-  max-width: 1450px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+  .partner-container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
 
-.partner-title{
-  font-size: 28px;
-  font-weight: 800;
-  text-align: center;
-  margin-bottom: 30px;
-  color: #111827;
-}
+  .partner-title {
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111827;
+  }
 
-.partner-marquee{
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  padding: 10px 0;
-}
+  .partner-marquee {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 10px 0;
+  }
 
-.partner-track{
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  width: max-content;
-  animation: partnerScroll 18s linear infinite;
-}
+  .partner-track {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: max-content;
+    animation: partnerScroll 18s linear infinite;
+  }
 
-.partner-card{
-  flex: 0 0 auto;
-  width: 205px;
-  height: 100px;
-  background: white;
-  border-radius: 18px;
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 16px;
-}
+  .partner-card {
+    flex: 0 0 auto;
+    width: 205px;
+    height: 100px;
+    background: white;
+    border-radius: 18px;
 
-.partner-card img{
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  display: block;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  }
 
-@keyframes partnerScroll{
-  0%{ transform: translateX(0); }
-  100%{ transform: translateX(-50%); } /* jalan ke kiri */
-}
-
-@media(max-width: 640px){
-  .partner-container{
+  .partner-card img {
     max-width: 100%;
-    padding: 0 14px;
+    max-height: 100%;
+    object-fit: contain;
+    display: block;
   }
 
-  .partner-card{
-    width: 165px;
-    height: 85px;
+  @keyframes partnerScroll {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+
+    /* jalan ke kiri */
   }
 
-  .partner-track{
-  animation: partnerScroll 10s linear infinite;
-}
+  @media(max-width: 640px) {
+    .partner-container {
+      max-width: 100%;
+      padding: 0 14px;
+    }
 
-}
+    .partner-card {
+      width: 165px;
+      height: 85px;
+    }
 
+    .partner-track {
+      animation: partnerScroll 10s linear infinite;
+    }
 
-/* Mobile: tetap rapih */
-@media(max-width: 640px){
-  .partner-title{
-    font-size: 22px;
   }
 
-  .partner-card{
-    width: 130px;
-    height: 75px;
-    border-radius: 16px;
-    padding: 12px;
-  }
 
-  .partner-track{
-    gap: 14px;
-    animation-duration: 16s;
+  /* Mobile: tetap rapih */
+  @media(max-width: 640px) {
+    .partner-title {
+      font-size: 22px;
+    }
+
+    .partner-card {
+      width: 130px;
+      height: 75px;
+      border-radius: 16px;
+      padding: 12px;
+    }
+
+    .partner-track {
+      gap: 14px;
+      animation-duration: 16s;
+    }
   }
-}
 
 
   /* NAVBAR */
@@ -153,17 +161,17 @@
     border-radius: 2px;
   }
 
-  .hamburger-active > span:nth-child(1) {
+  .hamburger-active>span:nth-child(1) {
     transform: rotate(45deg) translate(6px, 6px);
     width: 24px;
   }
 
-  .hamburger-active > span:nth-child(2) {
+  .hamburger-active>span:nth-child(2) {
     opacity: 0;
     transform: translateX(-10px);
   }
 
-  .hamburger-active > span:nth-child(3) {
+  .hamburger-active>span:nth-child(3) {
     transform: rotate(-45deg) translate(6px, -6px);
     width: 24px;
   }
@@ -254,7 +262,8 @@
 
   .team-card-new:hover {
     transform: translateY(-15px);
-  box-shadow: 0 25px 50px -12px rgba(54, 192, 178, 0.25); /* rgba dari #36c0b2 */
+    box-shadow: 0 25px 50px -12px rgba(54, 192, 178, 0.25);
+    /* rgba dari #36c0b2 */
   }
 
   .team-card-new::before {
@@ -264,7 +273,7 @@
     left: 0;
     right: 0;
     height: 5px;
-  background: linear-gradient(90deg, #36c0b2 0%, #36c0b2 100%);
+    background: linear-gradient(90deg, #36c0b2 0%, #36c0b2 100%);
     z-index: 1;
   }
 
@@ -321,13 +330,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  color: #36c0b2;
+    color: #36c0b2;
     font-size: 14px;
     transition: all 0.3s ease;
   }
 
   .social-icon:hover {
-  background: #36c0b2;
+    background: #36c0b2;
     color: white;
     transform: scale(1.1);
   }
@@ -336,7 +345,7 @@
     position: absolute;
     top: 20px;
     left: 20px;
-  background: linear-gradient(90deg, #36c0b2 0%, #36c0b2 100%);
+    background: linear-gradient(90deg, #36c0b2 0%, #36c0b2 100%);
     color: white;
     padding: 6px 12px;
     border-radius: 20px;
@@ -406,7 +415,7 @@
   }
 
   .carousel-dot.active {
-  background: #36c0b2;
+    background: #36c0b2;
     transform: scale(1.2);
   }
 
@@ -427,27 +436,23 @@
     width: 100%;
     height: 100%;
   }
-
-  /* GRADIENT */
   .gradient-bg {
     background: linear-gradient(135deg, #36c0b2 0%, #36c0b2 100%);
   }
 
   .gradient-text {
-  background: linear-gradient(90deg, #36c0b2 0%, #36c0b2 100%);
+    background: linear-gradient(90deg, #36c0b2 0%, #36c0b2 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
   }
 
-  /* GLASS */
   .glass-effect {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.2);
   }
 
-  /* SCROLLBAR */
   ::-webkit-scrollbar {
     width: 8px;
   }
@@ -466,7 +471,6 @@
     background: #36c0b2;
   }
 
-  /* MODAL */
   .modal-overlay {
     position: fixed;
     top: 0;
@@ -579,7 +583,6 @@
     }
   }
 
-  /* Animasi khusus untuk AOS delay */
   [data-aos-delay="100"] {
     transition-delay: 100ms;
   }
