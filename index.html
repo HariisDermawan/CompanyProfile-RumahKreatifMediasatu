@@ -16,111 +16,110 @@
 
 <body class="font-inter bg-white text-dark w-full overflow-x-hidden">
   <header class="navbar">
-  <div class="w-full px-4 sm:px-6 h-full">
-    <div class="flex justify-between items-center h-full w-full">
-      <!-- Logo Responsif -->
-      <div class="flex items-center">
-        <!-- LOGO 2 (Icon) -->
-        <div
-          class="w-12 h-12 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-xl from-primary to-secondary flex items-center justify-center flex-shrink-0">
-          <img src="asset/logo/2.1.png" alt="Logo 2"
-            class="w-full h-full object-cover scale-[2] sm:scale-[2.2] md:scale-[2.5]" />
+    <div class="w-full px-4 sm:px-6 h-full">
+      <div class="flex justify-between items-center h-full w-full">
+        <!-- Logo Responsif -->
+        <div class="flex items-center">
+          <!-- LOGO 2 (Icon) -->
+          <div
+            class="w-12 h-12 sm:w-12 sm:h-12 md:w-14 md:h-14 rounded-xl from-primary to-secondary flex items-center justify-center flex-shrink-0">
+            <img src="asset/logo/2.1.png" alt="Logo 2"
+              class="w-full h-full object-cover scale-[2] sm:scale-[2.2] md:scale-[2.5]" />
+          </div>
+
+          <!-- LOGO 1 -->
+          <img src="asset/logo/1.1.png" alt="Logo 1"
+            class="h-10 sm:h-11 md:h-12 lg:h-14 mt-2 sm:mt-2 md:mt-5 object-contain ml-7 sm:ml-9 md:ml-10 lg:ml-12 scale-[3.1] sm:scale-[3.1] md:scale-[3.2] lg:scale-[3.2]" />
         </div>
 
-        <!-- LOGO 1 -->
-        <img src="asset/logo/1.1.png" alt="Logo 1"
-          class="h-10 sm:h-11 md:h-12 lg:h-14 mt-2 sm:mt-2 md:mt-5 object-contain ml-7 sm:ml-9 md:ml-10 lg:ml-12 scale-[3.1] sm:scale-[3.1] md:scale-[3.2] lg:scale-[3.2]" />
-      </div>
-
-      <!-- Desktop Navigation - Dikanan -->
-      <nav class="hidden md:flex items-center space-x-6 lg:space-x-10 ml-auto">
-        <a href="#home"
-          class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
-          Beranda
-        </a>
-
-        <a href="#about"
-          class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
-          Tentang
-        </a>
-
-        <a href="#services"
-          class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
-          Layanan
-        </a>
-
-        <a href="#team"
-          class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
-          Tim
-        </a>
-
-        <a href="#videos"
-          class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
-          Video
-        </a>
-
-        <a href="https://wa.me/628161125676"
-          class="bg-gradient-to-br from-teal-500 to-cyan-500 text-white font-medium py-2 px-4 lg:py-3 lg:px-6 rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 text-sm lg:text-base">
-          Hubungi Kami
-        </a>
-      </nav>
-
-      <!-- Mobile Menu Button - Dikanan -->
-      <div class="md:hidden ml-auto">
-        <button id="hamburger"
-          class="flex flex-col w-8 h-8 justify-center items-center space-y-1.5 focus:outline-none">
-          <span class="hamburger-line w-6"></span>
-          <span class="hamburger-line w-6"></span>
-          <span class="hamburger-line w-6"></span>
-        </button>
-      </div>
-    </div>
-
-    <!-- Mobile Navigation -->
-    <div id="mobile-menu" class="hidden md:hidden mobile-menu animate-slide-down">
-      <div class="mobile-menu-content">
-        <div class="flex flex-col space-y-1 px-4">
+        <!-- Desktop Navigation - Dikanan -->
+        <nav class="hidden md:flex items-center space-x-6 lg:space-x-10 ml-auto">
           <a href="#home"
-            class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
-            <i class="fas fa-home mr-3 text-teal-500"></i>
-            <span>Beranda</span>
+            class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
+            Beranda
           </a>
 
           <a href="#about"
-            class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
-            <i class="fas fa-info-circle mr-3 text-teal-500"></i>
-            <span>Tentang</span>
+            class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
+            Tentang
           </a>
 
           <a href="#services"
-            class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
-            <i class="fas fa-cogs mr-3 text-teal-500"></i>
-            <span>Layanan</span>
+            class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
+            Layanan
           </a>
 
           <a href="#team"
-            class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
-            <i class="fas fa-users mr-3 text-teal-500"></i>
-            <span>Tim</span>
+            class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
+            Tim
           </a>
 
           <a href="#videos"
-            class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
-            <i class="fas fa-play-circle mr-3 text-teal-500"></i>
-            <span>Video</span>
+            class="text-dark hover:text-teal-500 font-medium transition-colors text-sm lg:text-base hover:scale-105 transition-transform">
+            Video
           </a>
 
           <a href="https://wa.me/628161125676"
-            class="bg-gradient-to-br from-teal-500 to-cyan-500 text-white font-medium py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 text-base text-center mt-2 mx-4">
-            <i class="fas fa-phone-alt mr-2"></i>
+            class="bg-gradient-to-br from-teal-500 to-cyan-500 text-white font-medium py-2 px-4 lg:py-3 lg:px-6 rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-300 text-sm lg:text-base">
             Hubungi Kami
           </a>
+        </nav>
+
+        <!-- Mobile Menu Button - Dikanan -->
+        <div class="md:hidden ml-auto">
+          <button id="hamburger"
+            class="flex flex-col w-8 h-8 justify-center items-center space-y-1.5 focus:outline-none">
+            <span class="hamburger-line w-6"></span>
+            <span class="hamburger-line w-6"></span>
+            <span class="hamburger-line w-6"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <div id="mobile-menu" class="hidden md:hidden mobile-menu animate-slide-down">
+        <div class="mobile-menu-content">
+          <div class="flex flex-col space-y-1 px-4">
+            <a href="#home"
+              class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
+              <i class="fas fa-home mr-3 text-teal-500"></i>
+              <span>Beranda</span>
+            </a>
+
+            <a href="#about"
+              class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
+              <i class="fas fa-info-circle mr-3 text-teal-500"></i>
+              <span>Tentang</span>
+            </a>
+
+            <a href="#services"
+              class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
+              <i class="fas fa-cogs mr-3 text-teal-500"></i>
+              <span>Layanan</span>
+            </a>
+
+            <a href="#team"
+              class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
+              <i class="fas fa-users mr-3 text-teal-500"></i>
+              <span>Tim</span>
+            </a>
+
+            <a href="#videos"
+              class="text-dark hover:text-teal-500 font-medium transition-colors py-3 text-base border-b border-gray-100 flex items-center hover:bg-gray-50 px-4">
+              <i class="fas fa-play-circle mr-3 text-teal-500"></i>
+              <span>Video</span>
+            </a>
+
+            <a href="https://wa.me/628161125676"
+              class="bg-gradient-to-br from-teal-500 to-cyan-500 text-white font-medium py-3 px-6 rounded-lg hover:shadow-lg transition-all duration-300 text-base text-center mt-2 mx-4">
+              <i class="fas fa-phone-alt mr-2"></i>
+              Hubungi Kami
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</header>
-
+  </header>
 
   <!-- Hero Section - Full Height + Aman dari Navbar -->
   <section id="home"
@@ -152,9 +151,10 @@
 
           <p class="text-[15px] sm:text-lg lg:text-xl opacity-90 leading-relaxed mb-7 sm:mb-9 lg:mb-10 max-w-full lg:max-w-2xl mx-auto lg:mx-0"
             data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-            Rumah Kreatif Media yang mengkhususkan diri dalam produksi konten berkualitas tinggi untuk platform digital
-            dan media sosial. Kami juga menyediakan layanan desain grafis, fotografi, web design, serta videografi untuk
-            film, series, dan prewedding.
+            Rumah Kreatif Media yang mengkhususkan diri dalam produksi konten
+            berkualitas tinggi untuk platform digital dan media sosial. Kami
+            juga menyediakan layanan desain grafis, fotografi, web design,
+            serta videografi untuk film, series, dan prewedding.
           </p>
 
           <!-- Buttons -->
@@ -263,9 +263,10 @@
 
         <p class="text-gray-600 max-w-full lg:max-w-4xl text-sm sm:text-base md:text-lg leading-relaxed"
           data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-          Didirikan pada tahun 2023, Rumah Kreatif Media Satu telah berkembang menjadi perusahaan media terkemuka dengan
-          fokus pada produksi konten berkualitas tinggi. Kami menggabungkan kreativitas, teknologi, dan strategi untuk
-          menciptakan pengalaman media yang berdampak.
+          Didirikan pada tahun 2023, Rumah Kreatif Media Satu telah berkembang
+          menjadi perusahaan media terkemuka dengan fokus pada produksi konten
+          berkualitas tinggi. Kami menggabungkan kreativitas, teknologi, dan
+          strategi untuk menciptakan pengalaman media yang berdampak.
         </p>
       </div>
 
@@ -520,60 +521,125 @@
 
   <section class="partner-section bg-white">
     <div class="partner-container">
-      <h2 class="partner-title">Dipercaya <span class="text-[#36c0b2]">Oleh :</span></h2>
+      <h2 class="partner-title">
+        Dipercaya <span class="text-[#36c0b2]">Oleh :</span>
+      </h2>
 
       <!-- Baris Marquee Pertama (ke kiri, seamless) -->
       <div class="partner-marquee mt-3">
         <div class="partner-track">
           <!-- Original logos -->
-          <div class="partner-card"><img src="asset/clint/1.jpeg" alt="Partner 1" /></div>
-          <div class="partner-card"><img src="asset/clint/2.jpeg" alt="Partner 2" /></div>
-          <div class="partner-card"><img src="asset/clint/3.jpeg" alt="Partner 3" /></div>
-          <div class="partner-card"><img src="asset/clint/4.jpeg" alt="Partner 4" /></div>
-          <div class="partner-card"><img src="asset/clint/5.jpeg" alt="Partner 5" /></div>
-          <div class="partner-card"><img src="asset/clint/6.jpeg" alt="Partner 6" /></div>
-          <div class="partner-card"><img src="asset/clint/7.jpeg" alt="Partner 7" /></div>
-          <div class="partner-card"><img src="asset/clint/8.jpeg" alt="Partner 8" /></div>
+          <div class="partner-card">
+            <img src="asset/clint/1/1.jpeg" alt="Partner 1" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/2.jpeg" alt="Partner 2" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/3.jpeg" alt="Partner 3" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/4.jpg" alt="Partner 4" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/5.jpg" alt="Partner 5" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/6.jpg" alt="Partner 6" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/16.png" alt="Partner 7" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/8.png" alt="Partner 8" />
+          </div>
+
+
           <!-- Duplicate logos for seamless scroll -->
-          <div class="partner-card"><img src="asset/clint/1.jpeg" alt="Partner 1" /></div>
-          <div class="partner-card"><img src="asset/clint/2.jpeg" alt="Partner 2" /></div>
-          <div class="partner-card"><img src="asset/clint/3.jpeg" alt="Partner 3" /></div>
-          <div class="partner-card"><img src="asset/clint/4.jpeg" alt="Partner 4" /></div>
-          <div class="partner-card"><img src="asset/clint/5.jpeg" alt="Partner 5" /></div>
-          <div class="partner-card"><img src="asset/clint/6.jpeg" alt="Partner 6" /></div>
-          <div class="partner-card"><img src="asset/clint/7.jpeg" alt="Partner 7" /></div>
-          <div class="partner-card"><img src="asset/clint/8.jpeg" alt="Partner 8" /></div>
+          <div class="partner-card">
+            <img src="asset/clint/1/15.png" alt="Partner 1" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/13.png" alt="Partner 2" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/9.png" alt="Partner 3" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/1.jpeg" alt="Partner 4" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/2.jpeg" alt="Partner 5" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/3.jpeg" alt="Partner 6" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/1/4.jpg" alt="Partner 7" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/8.jpeg" alt="Partner 8" />
+          </div>
         </div>
       </div>
 
       <!-- Baris Marquee Kedua (ke kanan, seamless & turun) -->
-      <div class="partner-marquee" style="margin-top: 40px;">
+      <div class="partner-marquee" style="margin-top: 40px">
         <div class="partner-track">
           <!-- Original logos -->
-          <div class="partner-card"><img src="asset/clint/9.jpeg" alt="Partner 9" /></div>
-          <div class="partner-card"><img src="asset/clint/10.jpeg" alt="Partner 10" /></div>
-          <div class="partner-card"><img src="asset/clint/11.jpeg" alt="Partner 11" /></div>
-          <div class="partner-card"><img src="asset/clint/12.jpeg" alt="Partner 12" /></div>
-          <div class="partner-card"><img src="asset/clint/q3.jpeg" alt="Partner 13" /></div>
-          <div class="partner-card"><img src="asset/clint/14.jpg" alt="Partner 14" /></div>
-          <div class="partner-card"><img src="asset/clint/15.jpg" alt="Partner 15" /></div>
-          <div class="partner-card"><img src="asset/clint/16.jpg" alt="Partner 16" /></div>
+          <div class="partner-card">
+            <img src="asset/clint/2/1.jpeg" alt="Partner 9" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/2.jpeg" alt="Partner 10" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/3.jpeg" alt="Partner 11" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/4.jpeg" alt="Partner 12" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/5.jpeg" alt="Partner 13" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/6.jpg" alt="Partner 14" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/7.jpg" alt="Partner 15" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/8.jpg" alt="Partner 16" />
+          </div>
           <!-- Duplicate logos for seamless scroll -->
-          <div class="partner-card"><img src="asset/clint/23.jpg" alt="Partner 9" /></div>
-          <div class="partner-card"><img src="asset/clint/24.jpg" alt="Partner 10" /></div>
-          <div class="partner-card"><img src="asset/clint/17.jpg" alt="Partner 11" /></div>
-          <div class="partner-card"><img src="asset/clint/18.jpg" alt="Partner 12" /></div>
-          <div class="partner-card"><img src="asset/clint/19.jpg" alt="Partner 13" /></div>
-          <div class="partner-card"><img src="asset/clint/20.jpg" alt="Partner 14" /></div>
-          <div class="partner-card"><img src="asset/clint/21.jpg" alt="Partner 15" /></div>
-          <div class="partner-card"><img src="asset/clint/22.jpg" alt="Partner 16" /></div>
+          <div class="partner-card">
+            <img src="asset/clint/2/9.jpg" alt="Partner 9" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/1.jpeg" alt="Partner 10" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/2.jpeg" alt="Partner 11" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/3.jpeg" alt="Partner 12" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/4.jpeg" alt="Partner 13" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/5.jpeg" alt="Partner 14" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/6.jpg" alt="Partner 15" />
+          </div>
+          <div class="partner-card">
+            <img src="asset/clint/2/7.jpg" alt="Partner 16" />
+          </div>
         </div>
       </div>
-
     </div>
   </section>
-
-
 
   <!-- Content Showcase Section -->
   <section id="content-showcase" class="py-12 sm:py-16 md:py-20 bg-white w-full overflow-hidden">
@@ -602,7 +668,7 @@
         <button
           class="filter-btn px-4 py-2 rounded-full text-sm font-semibold border border-gray-200 bg-white text-dark hover:shadow-md transition-all"
           data-filter="video-commercial">
-          Video Commercial
+          Commercial Art
         </button>
 
         <button
@@ -638,7 +704,7 @@
         <button
           class="filter-btn px-4 py-2 rounded-full text-sm font-semibold border border-gray-200 bg-white text-dark hover:shadow-md transition-all"
           data-filter="priweding">
-          Priweding
+          Documentation
         </button>
 
         <button
@@ -648,581 +714,804 @@
         </button>
       </div>
 
-      <!-- Grid -->
+      <!-- CATEGORY -->
       <div id="content-grid"
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7 lg:gap-8">
 
         <!-- CARD Design Graphic 1 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-          <div class="relative">
-            <img src="asset/img/scoot.jpg" alt="Konten Landscape 1"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Design Graphic
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Design Graphic
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Konten sinematik untuk meningkatkan exposure brand di sosial
-                media.
-              </p>
-            </div>
-          </div>
-        </div>
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+  <div class="relative">
+    <img src="asset/img/scoot.jpg" alt="Konten Landscape 1"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Design Graphic
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Design Graphic
+    </h3>
+  </div>
+</div>
 
-        <!-- CARD 2 Design Graphic -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
-          <div class="relative">
-            <img src="asset/img/2.jpg" alt="Konten Landscape 2"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Design Graphic
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Design Graphic
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Detail produk dibuat lebih premium dengan lighting & angle
-                yang clean.
-              </p>
-            </div>
-          </div>
-        </div>
+<!-- CARD 2 Design Graphic -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+  <div class="relative">
+    <img src="asset/img/2.jpg" alt="Konten Landscape 2"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Design Graphic
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Design Graphic
+    </h3>
+  </div>
+</div>
 
-        <!-- CARD Design Graphic 1 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-          <div class="relative">
-            <img src="asset/img/3.jpg" alt="Konten Landscape 1"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Design Graphic
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Design Graphic
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Konten sinematik untuk meningkatkan exposure brand di sosial
-                media.
-              </p>
-            </div>
-          </div>
-        </div>
+<!-- CARD Design Graphic 3 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+  <div class="relative">
+    <img src="asset/img/3.jpg" alt="Konten Landscape 3"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Design Graphic
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Design Graphic
+    </h3>
+  </div>
+</div>
 
-        <!-- CARD 2 Design Graphic -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
-          <div class="relative">
-            <img src="asset/img/4.jpg" alt="Konten Landscape 2"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Design Graphic
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Design Graphic
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Detail produk dibuat lebih premium dengan lighting & angle
-                yang clean.
-              </p>
-            </div>
-          </div>
-        </div>
+<!-- CARD Design Graphic 4 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+  <div class="relative">
+    <img src="asset/img/4.jpg" alt="Konten Landscape 4"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Design Graphic
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Design Graphic
+    </h3>
+  </div>
+</div>
 
-
+<!-- CARD Design Graphic 5 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="design-grafis" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+  <div class="relative">
+    <img src="asset/img/5.jpg" alt="Konten Landscape 5"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Design Graphic
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Design Graphic
+    </h3>
+  </div>
+</div>
 
 
         <!-- CARD 4 EVENT-->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
-          <div class="relative">
-            <img src="asset/img/event/2.jpeg" alt="Konten Landscape 4"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Event
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Event Highlight
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Highlight event dibuat cepat, dinamis, dan siap upload untuk
-                platform digital.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 4 EVENT-->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
-          <div class="relative">
-            <img src="asset/img/event/3.jpeg" alt="Konten Landscape 4"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Event
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Event Highlight
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Highlight event dibuat cepat, dinamis, dan siap upload untuk
-                platform digital.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 4 EVENT-->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
-          <div class="relative">
-            <img src="asset/img/event/4.jpeg" alt="Konten Landscape 4"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Event
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Event Highlight
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Highlight event dibuat cepat, dinamis, dan siap upload untuk
-                platform digital.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 4 EVENT-->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
-          <div class="relative">
-            <img src="asset/img/event/5.jpeg" alt="Konten Landscape 4"
-              class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Event
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Event Highlight
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Highlight event dibuat cepat, dinamis, dan siap upload untuk
-                platform digital.
-              </p>
-            </div>
-          </div>
-        </div>
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/event/1.JPG" alt="Konten Landscape 1"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Event
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Event Highlight
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 5 EVENT-->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/event/2.JPG" alt="Konten Landscape 2"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Event
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Event Highlight
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 6 EVENT-->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/event/3.JPG" alt="Konten Landscape 3"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Event
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Event Highlight
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 7 EVENT-->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/event/4.JPG" alt="Konten Landscape 4"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Event
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Event Highlight
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 8 EVENT-->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/event/5.JPG" alt="Konten Landscape 5"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Event
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Event Highlight
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 9 EVENT-->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="event" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/event/6.JPG" alt="Konten Landscape 6"
+      class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Event
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Event Highlight
+    </h3>
+  </div>
+</div>
 
 
-        <!-- CARD 10 Priweding -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
-          <div class="relative">
-            <img src="asset/img/weding/1.jpeg" alt="Konten Portrait 5"
-              class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Priweding
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Short Vertical Ads
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Iklan vertikal singkat yang cocok untuk promo cepat dan CTA
-                jelas.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 10 Priweding -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
-          <div class="relative">
-            <img src="asset/img/weding/2.jpeg" alt="Konten Portrait 5"
-              class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Priweding
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Short Vertical Ads
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Iklan vertikal singkat yang cocok untuk promo cepat dan CTA
-                jelas.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 10 Priweding -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
-          <div class="relative">
-            <img src="asset/img/weding/3.jpeg" alt="Konten Portrait 5"
-              class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Priweding
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Short Vertical Ads
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Iklan vertikal singkat yang cocok untuk promo cepat dan CTA
-                jelas.
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- CARD 10 Priweding-->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
-          <div class="relative">
-            <img src="asset/img/weding/4.jpeg" alt="Konten Portrait 5"
-              class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Priweding
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Short Vertical Ads
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Iklan vertikal singkat yang cocok untuk promo cepat dan CTA
-                jelas.
-              </p>
-            </div>
-          </div>
-        </div>
+       <!-- CARD 10 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/1.jpeg" alt="Konten Portrait 1"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Prewedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Prewedding documentation
+    </h3>
+  </div>
+</div>
 
+<!-- CARD 11 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/2.jpeg" alt="Konten Portrait 2"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Prewedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Prewedding documentation
+    </h3>
+  </div>
+</div>
 
-        <!-- CARD WEB DESIGN 1 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-          <div class="relative">
-            <img src="asset/img/adz.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+<!-- CARD 12 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/3.jpeg" alt="Konten Portrait 3"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Prewedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+     Prewedding documentation
+    </h3>
+  </div>
+</div>
 
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Web Design
-            </span>
-          </div>
+<!-- CARD 13 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/5.jpeg" alt="Konten Portrait 4"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+       Wedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+       Wedding
+    </h3>
+  </div>
+</div>
 
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Adzkiatransmandiri
-              </h3>
+<!-- CARD 14 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/6.jpeg" alt="Konten Portrait 5"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+       Wedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Wedding
+    </h3>
+  </div>
+</div>
 
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Pengembangan company profile Adzkia Transa Mandiri sebagai perusahaan penyedia layanan sewa mobil untuk
-                wilayah Jabodetabek.
-              </p>
-            </div>
+<!-- CARD 15 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/7.jpeg" alt="Konten Portrait 6"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+       Wedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+     Wedding
+    </h3>
+  </div>
+</div>
 
-            <!-- BUTTON DEMO -->
-            <div class="mt-4">
-              <a href="https://adzkiatransmandiri.com/" target="_blank"
-                class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
+<!-- CARD 16 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/8.jpeg" alt="Konten Portrait 7"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+       Wedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+     Wedding
+    </h3>
+  </div>
+</div>
 
-        <!-- CARD WEB DESIGN 2 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
-          <div class="relative">
-            <img src="asset/img/al.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+<!-- CARD 17 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/9.jpeg" alt="Konten Portrait 8"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+       Wedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+     Wedding
+    </h3>
+  </div>
+</div>
 
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Web Design
-            </span>
-          </div>
-
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Presensi Siswa Berbasis RFID (SMA AL-AZHAR-BSD)
-              </h3>
-
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Aplikasi Presensi Siswa Berbasis RFID dengan Pemantauan Real-Time
-              </p>
-            </div>
-
-            <!-- BUTTON DEMO -->
-            <div class="mt-4">
-              <a href="https://hariisdermawan.github.io/AL-AZHAR-BSD-TUGAS-KP-/login.html" target="_blank"
-                class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD WEB DESIGN 3 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-          <div class="relative">
-            <img src="asset/img/minyak.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
-
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Web Design
-            </span>
-          </div>
-
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Company Profile Atsirian
-              </h3>
-
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                produsen minyak atsiri berkualitas tinggi yang mengutamakan kemurnian dan keaslian. Kami menggunakan
-                bahan baku alami pilihan dari sumber terpercaya
-              </p>
-            </div>
-
-            <!-- BUTTON DEMO -->
-            <div class="mt-4">
-              <a href="https://hariisdermawan.github.io/Company-Profile-Minyak-Atsirian/" target="_blank"
-                class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD WEB DESIGN 4 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
-          <div class="relative">
-            <img src="asset/img/tra.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
-
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Web Design
-            </span>
-          </div>
-
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                NOMAD's Travel
-              </h3>
-
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Nomads, platform yang menyediakan layanan perjalanan dan petualangan.
-              </p>
-            </div>
-
-            <!-- BUTTON DEMO -->
-            <div class="mt-4">
-              <a href="https://hariisdermawan.github.io/Travelin.io/" target="_blank"
-                class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD WEB DESIGN 5 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-          <div class="relative">
-            <img src="asset/img/hak.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
-
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Web Design
-            </span>
-          </div>
-
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Cyber Learning
-              </h3>
-
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Cyber Learning adalah platform pembelajaran yang berfokus pada penguasaan PHP, SQL, dan Linux sebagai
-                dasar pengembangan web dan keamanan sistem.
-              </p>
-            </div>
-
-            <!-- BUTTON DEMO -->
-            <div class="mt-4">
-              <a href="https://f1nd3x1.netlify.app/" target="_blank"
-                class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
-                Demo
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 3 Video Commercia -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-          <div class="relative">
-            <img src="#" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Video Commercial
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Corporate Storytelling
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Menampilkan tim & proses kerja untuk membangun trust audiens.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 5 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="social-media" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-          <div class="relative">
-            <img src="#" alt="Konten Landscape 5" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Social Media
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Behind The Scene
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Konten BTS untuk memperkuat storytelling & meningkatkan
-                engagement.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 6 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="social-media" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
-          <div class="relative">
-            <img src="#" alt="Konten Portrait 1" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Social Media
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Reels / TikTok Content
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Format vertikal siap publish, lebih cocok untuk konten viral &
-                cepat.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 7 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="photografer" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
-          <div class="relative">
-            <img src="#" alt="Konten Portrait 2" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Photografer
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Talent & Lifestyle Shot
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Visual talent lebih clean, cocok untuk brand fashion &
-                lifestyle.
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <!-- CARD 8 -->
-        <div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
-          data-category="film-series" data-aos="fade-up" data-aos-duration="800" data-aos-delay="450">
-          <div class="relative">
-            <img src="#" alt="Konten Portrait 3" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
-            <span
-              class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
-              Film / Series
-            </span>
-          </div>
-          <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[120px]">
-            <div>
-              <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
-                Cinematic Portrait
-              </h3>
-              <p class="text-gray-600 text-xs sm:text-sm leading-relaxed">
-                Portrait sinematik dengan tone warna yang modern dan elegan.
-              </p>
-            </div>
-          </div>
-        </div>
+<!-- CARD 18 Prewedding -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="priweding" data-aos="fade-up" data-aos-duration="800" data-aos-delay="550">
+  <div class="relative">
+    <img src="asset/img/weding/10.jpeg" alt="Konten Portrait 9"
+      class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Wedding
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+     Wedding
+    </h3>
+  </div>
+</div>
 
 
 
+       <!-- CARD WEB DESIGN 1 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
+  <div class="relative">
+    <img src="asset/img/adz.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Web Design
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Adzkiatransmandiri
+    </h3>
+    <div class="mt-4">
+      <a href="https://adzkiatransmandiri.com/" target="_blank"
+        class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
+        Demo
+      </a>
+    </div>
+  </div>
+</div>
 
+<!-- CARD WEB DESIGN 2 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+  <div class="relative">
+    <img src="asset/img/al.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Web Design
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Presensi Siswa Berbasis RFID (SMA AL-AZHAR-BSD)
+    </h3>
+    <div class="mt-4">
+      <a href="https://hariisdermawan.github.io/AL-AZHAR-BSD-TUGAS-KP-/login.html" target="_blank"
+        class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
+        Demo
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- CARD WEB DESIGN 3 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/minyak.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Web Design
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Company Profile Atsirian
+    </h3>
+    <div class="mt-4">
+      <a href="https://hariisdermawan.github.io/Company-Profile-Minyak-Atsirian/" target="_blank"
+        class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
+        Demo
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- CARD WEB DESIGN 4 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="250">
+  <div class="relative">
+    <img src="asset/img/tra.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Web Design
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      NOMAD's Travel
+    </h3>
+    <div class="mt-4">
+      <a href="https://hariisdermawan.github.io/Travelin.io/" target="_blank"
+        class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
+        Demo
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- CARD WEB DESIGN 5 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="web-design" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+  <div class="relative">
+    <img src="asset/img/hak.png" alt="Web Design" class="w-full h-44 sm:h-52 md:h-56 lg:h-60 object-cover" />
+    <span
+      class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Web Design
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-start">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-1">
+      Cyber Learning
+    </h3>
+    <div class="mt-4">
+      <a href="https://f1nd3x1.netlify.app/" target="_blank"
+        class="inline-flex items-center justify-center text-xs font-semibold px-4 py-2 rounded-lg bg-[#4d918f] text-white hover:opacity-90 transition">
+        Demo
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+         <!-- CARD 3 Video Commercial 1 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <video class="w-full h-auto max-h-64 object-contain" controls>
+      <source src="asset/img/video/33.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 2 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <video class="w-full h-auto max-h-64 object-contain" controls>
+      <source src="asset/img/video/SuperBubur.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 3 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <video class="w-full h-auto max-h-64 object-contain" controls>
+      <source src="asset/img/video/TEASER KOZE v3.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Koze Fashion Expo
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 4 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/1.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 5 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/2.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 6 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/3.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 7 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/4.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 8 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/5.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 9 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/6.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 3 Video Commercial 10 -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="video-commercial" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+  <div class="relative">
+    <img src="asset/img/komersial/7.jpeg" alt="Konten Landscape 3" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Video Commercial
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Corporate Storytelling
+    </h3>
+  </div>
+</div>
+
+
+       
+
+      <!-- CARD 5 Social Media -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="social-media" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+  <div class="relative">
+    <img src="asset/img/socialmedia/11.jpg" alt="Konten Landscape 5" class="w-full h-48 sm:h-56 md:h-60 lg:h-64 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Social Media
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Behind The Scene
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 6 Social Media -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="social-media" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+  <div class="relative">
+    <img src="asset/img/socialmedia/6.jpg" alt="Konten Portrait 1" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Social Media
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Reels / TikTok Content
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 6 Social Media -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="social-media" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+  <div class="relative">
+    <img src="asset/img/socialmedia/8.jpg" alt="Konten Portrait 1" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Social Media
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Reels / TikTok Content
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 6 Social Media -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="social-media" data-aos="fade-up" data-aos-duration="800" data-aos-delay="350">
+  <div class="relative">
+    <img src="asset/img/socialmedia/9.jpg" alt="Konten Portrait 1" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Social Media
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Reels / TikTok Content
+    </h3>
+  </div>
+</div>
+
+
+       <!-- CARD 7 Photografer -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="photografer" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+  <div class="relative">
+    <img src="asset/img/fotogra/IMG1.jpg" alt="Konten Portrait 2" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Photografer
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Talent & Lifestyle Shot
+    </h3>
+  </div>
+</div>
+
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="photografer" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+  <div class="relative">
+    <img src="asset/img/fotogra/IMG2.jpg" alt="Konten Portrait 2" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Photografer
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Talent & Lifestyle Shot
+    </h3>
+  </div>
+</div>
+
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="photografer" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+  <div class="relative">
+    <img src="asset/img/fotogra/IMG3.jpg" alt="Konten Portrait 2" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Photografer
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Talent & Lifestyle Shot
+    </h3>
+  </div>
+</div>
+
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="photografer" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
+  <div class="relative">
+    <img src="asset/img/fotogra/IMG4.jpg" alt="Konten Portrait 2" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Photografer
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Talent & Lifestyle Shot
+    </h3>
+  </div>
+</div>
+
+<!-- CARD 8 Film / Series -->
+<div class="content-card bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 card-hover"
+  data-category="film-series" data-aos="fade-up" data-aos-duration="800" data-aos-delay="450">
+  <div class="relative">
+    <img src="#" alt="Konten Portrait 3" class="w-full h-56 sm:h-64 md:h-72 lg:h-80 object-cover" />
+    <span class="absolute top-4 left-4 px-3 py-1 rounded-full bg-[#36c0b2] backdrop-blur text-white text-xs font-semibold">
+      Film / Series
+    </span>
+  </div>
+  <div class="p-4 sm:p-5 flex flex-col justify-between min-h-[80px]">
+    <h3 class="font-bold text-base sm:text-lg text-dark leading-snug mb-0">
+      Cinematic Portrait
+    </h3>
+  </div>
+</div>
 
       </div>
 
@@ -1300,7 +1589,7 @@
           </div>
 
           <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 text-dark leading-snug">
-            Produksi Audio
+           Event Planner
           </h3>
 
           <p class="text-gray-600 mb-6 sm:mb-7 leading-relaxed text-sm sm:text-base">
@@ -1311,15 +1600,15 @@
           <ul class="space-y-2 sm:space-y-3 mt-auto">
             <li class="flex items-start text-sm sm:text-base text-gray-600">
               <i class="fas fa-check text-primary mr-2 sm:mr-3 text-xs sm:text-sm mt-1"></i>
-              <span>Produksi Podcast</span>
+              <span>Social & Life Milestone Events (Personal)</span>
             </li>
             <li class="flex items-start text-sm sm:text-base text-gray-600">
               <i class="fas fa-check text-primary mr-2 sm:mr-3 text-xs sm:text-sm mt-1"></i>
-              <span>Musik & Soundtrack</span>
+              <span>Corporate & Business Events</span>
             </li>
             <li class="flex items-start text-sm sm:text-base text-gray-600">
               <i class="fas fa-check text-primary mr-2 sm:mr-3 text-xs sm:text-sm mt-1"></i>
-              <span>Iklan Radio & Audio Branding</span>
+              <span>Creative & Lifestyle Events (Public)</span>
             </li>
           </ul>
         </div>
@@ -1334,7 +1623,7 @@
           </div>
 
           <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-3 sm:mb-4 text-dark leading-snug">
-            Siaran Langsung
+            Live Streaming & Digital Experience
           </h3>
 
           <p class="text-gray-600 mb-6 sm:mb-7 leading-relaxed text-sm sm:text-base">
@@ -1345,15 +1634,15 @@
           <ul class="space-y-2 sm:space-y-3 mt-auto">
             <li class="flex items-start text-sm sm:text-base text-gray-600">
               <i class="fas fa-check text-primary mr-2 sm:mr-3 text-xs sm:text-sm mt-1"></i>
-              <span>Live Streaming Event</span>
+              <span>Multi-cam Live Streaming: Menyiarkan acara ke YouTube atau Zoom dengan kualitas profesional (bukan sekadar HP).</span>
             </li>
             <li class="flex items-start text-sm sm:text-base text-gray-600">
               <i class="fas fa-check text-primary mr-2 sm:mr-3 text-xs sm:text-sm mt-1"></i>
-              <span>Webinar & Konferensi Virtual</span>
+              <span>Digital Invitation Video: Video pendek estetik untuk disebar sebagai undangan digital.</span>
             </li>
             <li class="flex items-start text-sm sm:text-base text-gray-600">
               <i class="fas fa-check text-primary mr-2 sm:mr-3 text-xs sm:text-sm mt-1"></i>
-              <span>Produksi Acara TV Langsung</span>
+              <span>Produksi Dokumentasi (Fotograpy)</span>
             </li>
           </ul>
         </div>
@@ -1401,7 +1690,7 @@
               data-team="1" data-aos="zoom-in" data-aos-duration="800">
               <div class="team-img-container relative h-56 sm:h-64 md:h-72 lg:h-80 overflow-hidden">
                 <div class="team-badge absolute top-4 left-4 z-10">
-                  Web Developer
+                  Creative Entrepreneur
                 </div>
 
                 <img src="asset/tim/2.jpg" alt="Haris" class="team-img w-full h-full object-cover" />
@@ -1412,7 +1701,7 @@
                     Jhondry Fernando
                   </h3>
                   <p class="text-white/90 text-xs sm:text-sm">
-                    5+ Tahun Pengalaman
+                    3+ Tahun Pengalaman
                   </p>
                 </div>
 
@@ -1425,9 +1714,7 @@
 
               <div class="p-5 sm:p-6 md:p-7">
                 <p class="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-xs sm:text-sm md:text-base">
-                  Memimpin tim kreatif dengan pengalaman lebih dari 10 tahun
-                  di industri media. Ahli dalam strategi konten dan produksi
-                  kreatif.
+                 Gue selaku Creative Entrepreneur dengan spesialisasi pengembangan brand dan manajemen tim kreatif. Dengan pengalaman selama 3 tahun, yang telah sukses memimpin berbagai proyek lintas disiplin bersama tim,
                 </p>
 
                 <div class="flex items-center text-gray-500 text-xs sm:text-sm md:text-base">
@@ -1453,7 +1740,7 @@
                   <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-1 text-white">
                     Haris Darmawan
                   </h3>
-                  <p class="text-white/90 text-xs sm:text-sm">6+ Proyek</p>
+                  <p class="text-white/90 text-xs sm:text-sm">Full Stack Developer</p>
                 </div>
 
                 <div class="team-social absolute bottom-4 right-4 flex gap-2 z-10">
@@ -1471,9 +1758,10 @@
 
               <div class="p-5 sm:p-6 md:p-7">
                 <p class="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-xs sm:text-sm md:text-base">
-                  Bertanggung jawab dalam pengembangan website dengan fokus pada pengalaman pengguna yang intuitif dan
-                  desain yang menarik. Memastikan setiap situs tidak hanya fungsional tetapi juga estetis dan mudah
-                  digunakan.
+                  Bertanggung jawab dalam pengembangan website dengan fokus
+                  pada pengalaman pengguna yang intuitif dan desain yang
+                  menarik. Memastikan setiap situs tidak hanya fungsional
+                  tetapi juga estetis dan mudah digunakan.
                 </p>
 
                 <div class="flex items-center text-gray-500 text-xs sm:text-sm md:text-base">
@@ -1499,9 +1787,7 @@
                   <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-1 text-white">
                     Muhammad Fadly
                   </h3>
-                  <p class="text-white/90 text-xs sm:text-sm">
-                    Videografer
-                  </p>
+                  <p class="text-white/90 text-xs sm:text-sm">Videografer</p>
                 </div>
 
                 <div class="team-social absolute bottom-4 right-4 flex gap-2 z-10">
@@ -1513,8 +1799,10 @@
 
               <div class="p-5 sm:p-6 md:p-7">
                 <p class="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-xs sm:text-sm md:text-base">
-                  Berpengalaman dalam videografi dan editing video dengan kemampuan teknis yang luar biasa. Terampil
-                  menggunakan berbagai software profesional untuk menghasilkan konten visual berkualitas tinggi
+                  Berpengalaman dalam videografi dan editing video dengan
+                  kemampuan teknis yang luar biasa. Terampil menggunakan
+                  berbagai software profesional untuk menghasilkan konten
+                  visual berkualitas tinggi
                 </p>
 
                 <div class="flex items-center text-gray-500 text-xs sm:text-sm md:text-base">
@@ -1557,9 +1845,11 @@
 
               <div class="p-5 sm:p-6 md:p-7">
                 <p class="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-xs sm:text-sm md:text-base">
-                  berspesialisasi dalam mengubah ide menjadi visual yang berdampak, baik itu untuk branding, tata letak,
-                  atau konten digital. Dengan pikiran yang ingin tahu dan kecintaan pada tren visual, saya terus mencari
-                  cara baru untuk berkomunikasi melalui desain.
+                  berspesialisasi dalam mengubah ide menjadi visual yang
+                  berdampak, baik itu untuk branding, tata letak, atau konten
+                  digital. Dengan pikiran yang ingin tahu dan kecintaan pada
+                  tren visual, saya terus mencari cara baru untuk
+                  berkomunikasi melalui desain.
                 </p>
 
                 <div class="flex items-center text-gray-500 text-xs sm:text-sm md:text-base">
@@ -1575,18 +1865,18 @@
               data-team="5" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="400">
               <div class="team-img-container relative h-56 sm:h-64 md:h-72 lg:h-80 overflow-hidden">
                 <div class="team-badge absolute top-4 left-4 z-10">
-                  Sound Engineer
+                 Content Creator
                 </div>
 
-                <img src="#" alt="David Wilson" class="team-img w-full h-full object-cover" />
+                <img src="asset/tim/arfa.jpeg" alt="David Wilson" class="team-img w-full h-full object-cover" />
 
                 <div
                   class="team-overlay absolute bottom-0 left-0 w-full p-4 sm:p-5 bg-gradient-to-t from-black/70 via-black/40 to-transparent">
                   <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-1 text-white">
-                    ----
+                    Arfa Ardita
                   </h3>
                   <p class="text-white/90 text-xs sm:text-sm">
-                    Audio Specialist
+                    Content creator / Talent
                   </p>
                 </div>
 
@@ -1605,9 +1895,7 @@
 
               <div class="p-5 sm:p-6 md:p-7">
                 <p class="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-xs sm:text-sm md:text-base">
-                  Spesialis audio dengan pengalaman 8 tahun di industri
-                  rekaman. Menguasai teknik mixing dan mastering untuk
-                  berbagai genre musik.
+                  Halo! Gue Arfa ,Perjalanan gue sebagai konten kreator dan talent dimulai sejak 8 tahun lalu—zaman media sosial belum se-berisik sekarang. Selama hampir satu dekade ini, gue belajar kalau konten yang bagus itu bukan cuma soal tren.
                 </p>
 
                 <div class="flex items-center text-gray-500 text-xs sm:text-sm md:text-base">
@@ -1623,7 +1911,7 @@
               data-team="6" data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500">
               <div class="team-img-container relative h-56 sm:h-64 md:h-72 lg:h-80 overflow-hidden">
                 <div class="team-badge absolute top-4 left-4 z-10">
-                  Content Strategist
+                  Design graphic
                 </div>
 
                 <img src="#" alt="Emma Thompson" class="team-img w-full h-full object-cover" />
@@ -1631,10 +1919,10 @@
                 <div
                   class="team-overlay absolute bottom-0 left-0 w-full p-4 sm:p-5 bg-gradient-to-t from-black/70 via-black/40 to-transparent">
                   <h3 class="text-lg sm:text-xl md:text-2xl font-bold mb-1 text-white">
-                    -----
+                    Keyla Melani Putri
                   </h3>
                   <p class="text-white/90 text-xs sm:text-sm">
-                    Strategi Konten
+                    Design graphic
                   </p>
                 </div>
 
@@ -1645,7 +1933,7 @@
                   <a href="#" class="social-icon">
                     <i class="fab fa-twitter text-xs"></i>
                   </a>
-                  <a href="#" class="social-icon">
+                  <a href="rumahkreatifmediasatu@gmail.com" class="social-icon">
                     <i class="fab fa-instagram text-xs"></i>
                   </a>
                 </div>
@@ -1653,8 +1941,7 @@
 
               <div class="p-5 sm:p-6 md:p-7">
                 <p class="text-gray-600 mb-4 sm:mb-6 leading-relaxed text-xs sm:text-sm md:text-base">
-                  Mengembangkan strategi konten untuk berbagai platform media.
-                  Berpengalaman dalam penelitian pasar dan analisis audiens.
+                  Saya adalah seorang Desainer Grafis yang percaya bahwa desain bukan sekadar estetika, melainkan sebuah solusi visual untuk masalah komunikasi yang kompleks. Dengan pengalaman yang baru berusia 2 tahun di industri kreatif,
                 </p>
 
                 <div class="flex items-center text-gray-500 text-xs sm:text-sm md:text-base">
@@ -1808,7 +2095,6 @@
               <a href="tel:+628161125676" class="text-gray-600 text-sm md:text-base leading-relaxed">
                 +62 816-1125-676
               </a>
-
             </div>
 
             <!-- Email -->
@@ -1822,7 +2108,6 @@
                 class="text-gray-600 text-sm md:text-base leading-relaxed">
                 rumahkreatifmediasatu@gmail.com
               </a>
-
             </div>
           </div>
 
