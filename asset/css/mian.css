@@ -42,6 +42,7 @@
     color: #111827;
 }
 
+
 .partner-marquee {
     width: 100%;
     overflow: hidden;
@@ -524,29 +525,37 @@
   }
 
   .modal-header {
+     position: relative;
     padding: 24px 32px;
     border-bottom: 1px solid #E5E7EB;
     display: flex;
     justify-content: space-between;
+     align-items: flex-start;
     align-items: center;
   }
 
   .modal-title {
+     padding-right: 60px; 
     font-size: 1.75rem;
     font-weight: 700;
     color: #111827;
   }
 
   .modal-close {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: #F3F4F6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #F3F4F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
   }
 
   .modal-close:hover {

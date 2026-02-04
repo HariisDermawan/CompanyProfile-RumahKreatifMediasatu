@@ -141,12 +141,12 @@ const teamMembers = {
     },
     2: {
         name: 'Haris Darmawan',
-        position: 'Web Developer',
+        position: 'Development',
         experience: 'Full Stack Developer',
         email: 'harisdermawaan.id@gmail.com',
-        description: 'Fokus pada pembuatan solusi digital yang fungsional dan intuitif. Telah menyelesaikan banyak proyek software untuk klien di berbagai industri, termasuk company profile dan teknologi.',
+        description: 'Haris Darmawan berperan sebagai Developer yang mengutamakan kualitas kode, pengalaman pengguna, dan efisiensi sistem. Berpengalaman dalam membangun berbagai solusi digital seperti website company profile, aplikasi, dan pengembangan fitur berbasis teknologi',
         image: 'asset/tim/saa.png',
-        skills: ['Laravel', 'ApiRest', 'php', 'Html', 'css', 'java script', 'tailwindcss', 'figma design'],
+        skills: ['Laravel', 'RestApi', 'Php', 'Mysql', 'Html', 'Css', 'CC++', 'Linux', 'java script', 'tailwindcss', 'figma design'],
         social: {
             linkedin: 'https://www.linkedin.com/in/haris-darmawan-1285102a4/',
             tiktok: 'https://www.tiktok.com/@siletchiper',
@@ -197,9 +197,9 @@ const teamMembers = {
         name: 'Keyla Melani Putri',
         position: 'Design graphic',
         experience: 'Design graphic',
-        email: 'emma@mediasphere.com',
+        email: 'rumahkreatifmediasatu@gmail.com',
         description: 'Mengembangkan strategi konten untuk berbagai platform media. Berpengalaman dalam penelitian pasar dan analisis audiens. Membantu klien mengembangkan voice dan tone brand yang konsisten.',
-        image: '#',
+        image: 'asset/tim/pp.jpg',
         skills: ['Content Strategy', 'Market Research', 'Audience Analysis', 'Brand Voice Development', 'Content Calendar'],
         social: {
             linkedin: '#',
